@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Mayank Singh",
+  "github": "Mayank-web717",
+  "lab1_scenario": "A",
+  "lab1_prompt": "Role\nYou are a Samsung Customer Support representative experienced in handling warranty-related customer complaints.\n\nGoal\nGenerate a customer support reply that addresses the customer's third Galaxy Watch battery complaint and provides a resolution without promising a refund.\n\nContext\nThe customer has reported a battery issue with their Galaxy Watch for the third time this month. The device is still under warranty. The response should acknowledge the repeated inconvenience, reassure the customer that their case will be prioritized, and explain the warranty support process, including inspection and repair or replacement if covered under the warranty.\n\nConstraints\n\n120–150 words\nDo not promise or imply a refund.\nInclude a greeting, an apology, empathy, acknowledgment of the warranty status, clear next steps, appreciation for the customer's patience, and a polite closing.\nMaintain a professional and solution-focused approach.\n\nStyle / Tone\nProfessional, empathetic, courteous, reassuring, and customer-focused.\n\nOutput Format\nA customer support reply in plain text with:\n\nGreeting\nResponse body\nPolite closing",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 0,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "I used chatgpt and it gave 4299, it did now show the whole process just showed few steps",
+  "lab2_cot_prompt": "A warehouse starts the day with 4,200 Galaxy Buds in inventory. During the day, 850 units are shipped out. After the shipment, the warehouse sets aside 6% of the remaining inventory as held stock, making those units unavailable for sale. Finally, the warehouse receives a restock of 1,150 units.\n\nWork through this one step at a time: first calculate the inventory after the shipment, then determine the 6% hold and subtract it from the remaining stock, then add the restocked units. Show each calculation clearly, and then state the final number of Galaxy Buds available for sale at the end of the day.",
+  "lab2_cot_output_summary": "Chatgpt gave 4299, this time it gave step by step answers properly showing the answer.",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "Task: Determine how many Galaxy Buds are available for sale at the end of the day.\n\nScenario:\n\nInitial inventory: 4,200 Galaxy Buds\nUnits shipped out: 850\nAfter shipping, 6% of the remaining inventory is placed on hold and is not available for sale.\nThe warehouse then receives 1,150 additional units.\n\nInstructions:\nWork through the problem in stages. After each stage, verify that the intermediate result is consistent before proceeding to the next step. If you notice an arithmetic mistake, correct it before continuing. Once all stages are complete, provide the final number of Galaxy Buds available for sale along with a brief explanation of the calculation.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T09:52:23.873Z"
+}
