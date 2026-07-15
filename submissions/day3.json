@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Mayank Singh",
+  "github": "Mayank-web717",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "A",
+  "rag_no_rag_summary": "The no-RAG answer confidently stated that a Galaxy Watch6 with a cracked screen after 14 months is not covered by the standard warranty because it's both out of warranty and physical damage is excluded, while noting Samsung Care+ could still apply. It sounded confident, and its core conclusion is generally correct, though warranty terms can vary by country and specific protection plans, so a region-specific verification is still appropriate.",
+  "rag_grounded_summary": "Samsung's standard limited warranty covers manufacturing defects for 12 months from purchase but does not cover accidental damage. Accidental damage, including cracked screens, is covered only with an active Samsung Care+ plan (typically 12 or 24 months); otherwise, repairs are available through authorized service centers at the customer's expense.",
+  "rag_judgement": "confirmed_right",
+  "stretch_done": true,
+  "stretch_notes": "Case where the document conflicts with the model's prior knowledge: If the provided RAG document incorrectly stated that the standard Samsung warranty does cover accidental screen damage for 12 months, while the model's prior knowledge says accidental damage is covered only by Samsung Care+, the grounded (RAG) response should follow the provided document because the instruction is to answer using only the supplied information. In this scenario, the document would \"win,\" even if it contradicts the model's general knowledge, because grounding is designed to prioritize the provided source.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T07:03:50.279Z"
+}
