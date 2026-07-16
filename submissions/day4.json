@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Mayank Singh",
+  "github": "Mayank-web717",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The chatbot fabricated a non existing discount which never existed and presented it as fact, which shows us the hallucination"
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "The assistant collected and stored employees' confidential messages without their knowledge or consent, exposing sensitive client information and violating user privacy"
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Transparency",
+      "justification": "The generated video was presented as authentic, misleading the public and affecting the firm's stock price"
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "he AI unfairly disadvantaged applicants from certain women's colleges, resulting in discriminatory hiring outcomes despite gender not being an explicit input"
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "The biased moderation pattern went unchecked for weeks because no human monitored or reviewed the system's decisions until it was exposed externally"
+    },
+    {
+      "id": "F",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Security",
+      "justification": "Criminals exploited AI voice-cloning to impersonate a trusted executive, bypassing verification processes and enabling fraudulent fund transfers"
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Air Canada (AI customer support chatbot)",
+  "stretch_failure_type": "Hallucination",
+  "stretch_principle": "Reliability",
+  "stretch_notes": "Air Canada's chatbot incorrectly told a customer they could claim a bereavement fare discount after purchasing a full-price ticket. The information was false.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:20:46.048Z"
+}
